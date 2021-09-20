@@ -1,0 +1,23 @@
+.main__container {
+  margin: 0 auto;
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards__container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.logout__btn {
+  width: 100px;
+  height: 40px;
+  background-color: lightskyblue;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
